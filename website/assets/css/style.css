@@ -1,15 +1,14 @@
 body{
-    background: #BDBDBD;
-    width: 1425px;
+    background: white;
+    width: 100%;
+    
     
 }
 .tagline{
-    width: 1400px;
+    width: 100%;
     background-image: url("/website/assets/img/bg.jpg");
-    background-position: left;
-    background-size: cover;
-    text-align: center;
-    
+    background-position: center;
+    background-size: cover; 
 }
 .tagline h1{
     background-color: rgba(255, 255, 255, 0.746);
@@ -25,22 +24,21 @@ body{
 .first_heading {
     background-color: white;
     display: flex;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 100px;
-    
-    
+
 }
+
 #title {
     padding-top: 2%;
     display: flex;
-    width: 800px;
+    width: 900px;
     padding-bottom: 1%;
 
     
 }
 #title-a {
-    margin-left: 10%;
+    margin-left: 5%;
     font-size: 250%;
     font-style: bold;
 }
@@ -50,16 +48,17 @@ body{
     font: bold;
 }
 #parrafo {
-    line-height: 0.5;
-    margin-left: 10%;
-    font-size: 120%;
+    line-height: 1;
+    margin-left: 5%;
+    font-size: 130%;
+
 }
 #image-breaking-bad{
-    width: 85%;
-    
+    width: 190%;    
     object-fit: auto;
     border-radius: 100%;
     max-width: 400px;
+    padding-right: 20px;
     
     
 }
