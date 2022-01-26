@@ -85,3 +85,8 @@ hr {
     margin-left: 0%; 
     margin-right: 0%;
   }
+
+  .card {
+      border: 0ch;
+      border-color: transparent;
+  }

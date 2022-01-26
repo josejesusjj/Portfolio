@@ -1,14 +1,34 @@
 <!-- your html code here -->
-<div class="container">
-    <h1>Contact</h1>
-    <h5>It is a long established fact that a reader will be distracted by the readable content of a page when looking at
-        its layout.</h5>
-    <div class="container" style="width: 500px; height: 175px; background-color: gray; padding: 20px;">
-        <p>Please tell us what you think!!!</p>
-        <label for="fname">Your Email:</label>
-        <input type="text" id="fname" name="fname" placeholder="example@example.com"><br><br>
-        <label for="fname">Your message:</label>
-        <input type="text" id="fname" name="fname" height="100px" placeholder="Your message here"><br><br>
+<div class="card bg-white  rounded col-10 offset-1 border-0">
+    <div class="container-fluid">
+        <h1 class="mt-2">Contact</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur sed odio nisi culpa eum praesentium
+            sint. Laborum commodi velit, eum eligendi tempora saepe, qui quibusdam illum consectetur quaerat tenetur
+            odit!</p>
     </div>
-
+    <form class="col-8 offset-2 bg-light border border-gray-500 pt-2 rounded">
+        <div class="row mb-3">
+            <div class="col-4">
+                <label for="ExampleInputEmail1" class="form-label float-right" style="padding-left:150px"><strong>Your E-mail</strong></label>
+            </div>
+            <div class="col-8">
+                <input type="mail" class="form-control" id="ExampleInputEmail1" placeholder="Your email">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-4">
+                <label for="exampleFormControlTextarea1" class="form-label float-right" style="padding-left:125px"><strong>Your
+                        message</strong></label>
+            </div>
+            <div class="col-8">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Please enter your message here..."></textarea>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary float-right mb-5" style="margin-left:85%">Submit</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
 </div>
