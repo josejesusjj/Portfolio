@@ -5,15 +5,15 @@ body{
     
 }
 .navbar {
-    width: 120%;
+    width: auto;
     align-self: center;
     margin-left: -10%;
     margin-right: -10%;
 }
 .tagline{
     width: 120%;
-    margin-left: -10%;
-    margin-right: -10%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding-bottom: 11%;
     padding-top: 2%;
     background-image: url("/website/assets/img/bg.jpg");
