@@ -2,18 +2,13 @@
     background-image: url("/website/assets/img/bg.jpg");
     background-size: cover; 
 }
-.tagline h1{
+.tagline h1,h3{
     background-color: rgba(255, 255, 255, 0.746);  
-}
-.tagline h3{
-    background-color: rgba(255, 255, 255, 0.746);
 }
 .container {
     align-items: center;
-    background-color: blue;
 }
 .heading {
-    background-color: green;
     display: flex;
 }
 #title {
@@ -24,7 +19,7 @@
 #Portfolio {
     margin-left: 20px;
 }
-#parrafo3 {
+.parrafo {
     line-height: 1;
     margin-left: 20px;
 }
@@ -32,23 +27,16 @@
     color: rgb(101, 185, 224);
     font-style: bold;
 }
-#parrafo4 {
-    line-height: 1;
-    margin-left: 20px;
-}
 .card-img-top {
     margin: 10px;
     max-width: 90%;
     align-self: center;
 }
 hr {   
-    height: 1px; 
-    background-color: rgba(172, 172, 172, 0.479);
-    margin: 70px;  
-    margin-left: 0%; 
-    margin-right: 0%;
+    height: 2px; 
+    background-color: rgba(75, 75, 75, 0.479);
   }
-  .card {
-      border: 0ch;
-      border-color: transparent;
-  }
+.card {
+    border: 0ch;
+    border-color: transparent;
+ }
