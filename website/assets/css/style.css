@@ -1,3 +1,7 @@
+.container{
+    background-color: rgb(177, 27, 27);
+}
+
 .tagline{
     background-image: url("/website/assets/img/bg.jpg");
     background-size: cover; 
